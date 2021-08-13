@@ -110,14 +110,14 @@
                         понять
                         причину замедления: медленнее стал отвечать сервер либо слишком долго
                         выполняется JavaScript. Выглядит это примерно так:</p>
-                    <code> this.timings['look-ma-im-start'] = Date.now();<br>
-                this.timings['look-ma-finish'] = Date.now();</code>
+                    <samp> this.timings['look-ma-im-start'] = Date.now();<br>
+                        this.timings['look-ma-finish'] = Date.now();</samp>
                     <p> C помощью Date.now() мы получаем текущее время. Все тайминги собираются и при
                         отправке рассчитываются. На этапах разница между “end” и “start” не считается,
                         а все вычисления производятся в конце:</p>
-                    <code>var totalTime = this.timings['look-ma-finish'] - this.timings['look-ma-im-start'];</code>
+                    <samp>var totalTime = this.timings['look-ma-finish'] - this.timings['look-ma-im-start'];</samp>
                     <p>И на сервер прилетают подобные записи:</p>
-                    <code>serverResponse=50&domUpdate=60</code>
+                    <samp>serverResponse=50&domUpdate=60</samp>
                 </article>
             </main>
             <!--
@@ -220,10 +220,15 @@
 
                 <section>
                     <article>
-                        <p align="justify"> Алгоритм Бройдена — Флетчера — Гольдфарба — Шанно (BFGS)
-                            — итерационный метод численной оптимизации, предназначенный для
-                            нахождения локального максимума/минимума нелинейного функционала
-                            без ограничений.</p>
+                        <p align="justify">
+                        <dl>
+                            <dt> Алгоритм Бройдена — Флетчера — Гольдфарба — Шанно (BFGS)</dt>
+                            <dd>
+                                — итерационный метод численной оптимизации, предназначенный для
+                                нахождения локального максимума/минимума нелинейного функционала
+                                без ограничений.</dd>
+                        </dl>
+                        </p>
                         Дано
                         <math>
                             <mrow>
@@ -415,26 +420,35 @@
                     <article>
                         <p>Автор: @doochik<br>
                             С++ разработик<br>
-                            Электронная почта: (doochik@yandex-team.ru)<br>
-                            Компания: Яндекс</p>
+                            Электронная почта: <a href="mailto:doochik@yandex-team.ru">(doochik@yandex-team.ru)</a><br>
+                            Компания: Яндекс
+                        </p>
                     </article>
                 </section>
                 <!--
         Комментарии
     -->
                 <section>
-                    <p align="justify">– Mogaika (mogaika@yandex-team.ru) 30 ноября 2014 в 17:05</p>
+                    <p align="justify">– Mogaika (<a href="mailto:mogaika@yandex-team.ru">mogaika@yandex-team.ru</a>) 30
+                        ноября
+                        2014 в 17:05</p>
                     <p id="Comment"> А можете привести сравнение, на сколько быстрее грузится lite версия?</p>
-                    <p align="justify">– JIguse (mrawesome@yandex.ru) 29 ноября 2014 в 21:30</p>
+                    <p align="justify">– JIguse (<a href="mailto:mrawesome@yandex.ru">mrawesome@yandex.ru</a>) 29 ноября
+                        2014 в
+                        21:30</p>
                     <p id=Comment>Спасибо за статью, познавательно. Здорово, что Яндекс делится некоторыми
                         подробностями о внутренней работе сервисов.</p>
-                    <p align="justify">– Brister (brist89@yandex-team.ru) 24 ноября 2014 в 13:13</p>
+                    <p align="justify">– Brister (<a href="mailto:brist89@yandex-team.ru">brist89@yandex-team.ru</a>) 24
+                        ноября
+                        2014 в 13:13</p>
                     <p align="justify">(кол-во счастливых пользователей + кол-во удовлетворенных / 2) / (кол-во
                         всех).
                         Получается значение от нуля до единицы, которое, видимо, лучше всего показывает,
                         хорошо или плохо работает почта.
                         наверное все-таки от 0.5 до 1</p>
-                    <p align="justify">– alexeimois (test@yandex.ru) 22 ноября 2014 в 17:35</p>
+                    <p align="justify">– alexeimois (<a href="mailto:test@yandex.ru">test@yandex.ru</a>) 22 ноября 2014
+                        в 17:35
+                    </p>
                     <p id=Comment> Мы измеряем скорость загрузки с помощью Яндекс.Метрики:</p>
                     <a id=Comment
                         href="help.yandex.ru/metrika/reports/monitoring_timing.xml">help.yandex.ru/metrika/reports/monitoring_timing.xml</a>
@@ -444,7 +458,7 @@
 
 
     <footer>
-        <p>© Яндекс, help@yandex.ru, Хохрякова, 10</p>
+        <p>© Яндекс, <a href="mailto:help@yandex.ru">help@yandex.ru</a>, Хохрякова, 10</p>
     </footer>
 
 </html>
