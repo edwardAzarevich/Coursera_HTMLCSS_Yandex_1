@@ -11,6 +11,14 @@
 
         }
 
+        input.example {
+            padding: auto;
+        }
+
+        input:focus {
+            color: red;
+        }
+
         #Yandexheader {
             text-align: center;
 
@@ -115,6 +123,7 @@
                     <p> C помощью Date.now() мы получаем текущее время. Все тайминги собираются и при
                         отправке рассчитываются. На этапах разница между “end” и “start” не считается,
                         а все вычисления производятся в конце:</p>
+                    <input class="example">
                     <samp>var totalTime = this.timings['look-ma-finish'] - this.timings['look-ma-im-start'];</samp>
                     <p>И на сервер прилетают подобные записи:</p>
                     <samp>serverResponse=50&domUpdate=60</samp>
