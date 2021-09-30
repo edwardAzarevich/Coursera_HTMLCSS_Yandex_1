@@ -1,0 +1,7 @@
+p {
+    color: yellow;
+}
+[href] {
+    color: turquoise;
+    font-weight: bold;
+}
