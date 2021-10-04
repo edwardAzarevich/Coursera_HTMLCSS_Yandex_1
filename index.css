@@ -1,0 +1,9 @@
+h1 {
+    text-shadow: 4px 4px 10px #f00, -4px -4px 10px #0f0;
+}
+div {
+    /*column-count: 2;
+    column-gap: 300px;*/
+    column-rule: 2px solid #0f0;
+    column-width: 200px;
+}

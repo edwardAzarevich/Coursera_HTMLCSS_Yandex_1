@@ -1,0 +1,19 @@
+body {
+    font-family: "Roboto Slab", serif;
+}
+.heading {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+.var {
+    font-variant: small-caps;
+    font-style: normal;
+}
+.trans {
+    font: italic 20px Garamond, serif;
+}
+.parag {
+    line-height: 2;
+}
