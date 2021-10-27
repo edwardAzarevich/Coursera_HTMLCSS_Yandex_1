@@ -1,0 +1,8 @@
+.Zagalovok {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px #444;
+}
+body {
+    color: #444;
+}
