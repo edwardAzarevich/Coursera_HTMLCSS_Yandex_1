@@ -1,8 +1,14 @@
 /*Ссылка на шрифты кроме основного 'https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700'*/
+
+/*ADD*/
+
 @font-face {
     font-family: Headers;
     src: url(/fonts/AlexBrush-Regular.ttf);
 }
+
+/*EDN ADD*/
+
 body {
     width: 1200px;
     margin: 0 auto;
@@ -39,12 +45,14 @@ body {
     width: 200px;
 }
 
+/*ADD*/
+
 .header__weather-title {
     margin: 0;
     font-family: "Space Mono", monospace;
     text-align: center;
     font-weight: bold;
-    font-size: 1.13em;
+    font-size: 1.17em;
 }
 
 .header__weather-text {
@@ -53,6 +61,8 @@ body {
     font-size: 0.8em;
     line-height: 1.1em;
 }
+
+/*END ADD*/
 
 .header__title {
     overflow: visible;
@@ -67,13 +77,13 @@ body {
     border-top: 1px solid;
     border-bottom: 2px solid;
 }
-
+/*ADD*/
 .sub-header__copyright {
     display: inline-block;
-
+    font-size: 0.6em;
     margin: 0 30px;
 }
-
+/*END ADD*/
 .sub-header__price {
     float: right;
 }
@@ -94,9 +104,10 @@ body {
     margin-bottom: 4px !important;
 }
 
+/*ADD*/
+
 .article__content .article__add-text {
     text-align: justify;
-    font-size: 0.8em;
     margin-top: 10px;
     font-style: italic;
     text-indent: 2ch;
@@ -107,6 +118,8 @@ body {
     font-size: 0.8em;
     text-align: justify;
 }
+
+/*END ADD*/
 
 .article__author {
     display: block;
