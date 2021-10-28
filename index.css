@@ -1,5 +1,15 @@
+@font-face {
+    font-family: Headers;
+    src: url(/fonts/AlexBrush-Regular.ttf);
+}
+.Part1 {
+    font-style: normal;
+    text-align: center;
+    outline: 2px;
+    margin: 20px;
+}
 h1 {
-    text-shadow: 4px 4px 10px #f00, -4px -4px 10px #0f0;
+    font-family: Headers, Arial, Helvetica, sans-serif;
 }
 div {
     /*column-count: 2;
