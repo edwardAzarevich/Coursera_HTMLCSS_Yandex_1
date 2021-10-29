@@ -3,7 +3,7 @@
     font-family: NYT;
     unicode-range: U+000-5FF;
     /* только латинские символы */
-    src: url(/fonts/AlexBrush-Regular.ttf);
+    src: url(fonts/oldenglishtextmt.ttf);
 }
 
 body {
@@ -14,6 +14,7 @@ body {
 .clear-fix:after {
     display: block;
     clear: both;
+
     content: "";
 }
 
@@ -28,11 +29,13 @@ body {
     box-sizing: border-box;
     width: 200px;
     padding: 25px 10px;
+
     border: 1px solid;
 }
 
 .header__weather {
     float: right;
+
     width: 200px;
 }
 
@@ -199,6 +202,7 @@ body {
 
 .line.line_type_bold {
     margin-bottom: 3px;
+
     border-width: 2px;
 }
 
@@ -218,6 +222,7 @@ body {
 
     box-sizing: border-box;
     width: 49%;
+
     vertical-align: top;
 }
 
@@ -227,6 +232,7 @@ body {
 
 .multicolumn__left {
     padding-right: 10px;
+
     border-right: 1px solid #000;
 }
 

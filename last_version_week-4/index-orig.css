@@ -1,9 +1,10 @@
 /*Ссылка на шрифты кроме основного 'https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700'*/
+
 @font-face {
     font-family: NYT;
     unicode-range: U+000-5FF;
     /* только латинские символы */
-    src: url(/fonts/AlexBrush-Regular.ttf);
+    src: url(fonts/AlexBrush-Regular.ttf);
 }
 
 body {
@@ -154,27 +155,31 @@ body {
     text-align: justify;
     text-indent: 2ch;
 }
+
 .article__image-caption {
     text-decoration: underline;
     font-size: 0.8em;
 }
+
 .multicolumn .article__content .article__text {
     columns: 2;
     column-fill: balance;
     text-indent: 2ch;
     column-gap: 15px;
 }
+
 .multicolumn .article__content .article__text p {
     margin: 0;
 }
+
 /*––––––––––––––––––Блок главной фотографии–––––––––*/
+
 .main-photo__wrapper {
     margin: 0;
 }
 
 .main-photo__img {
-    width: 745px;
-    height: 475px;
+    width: 100%;
 }
 
 .main-photo__title {
@@ -193,12 +198,14 @@ body {
 }
 
 /*––––––––––––––––––Линия разделения––––––––––––––––*/
+
 .line {
     border-top: 1px solid #000;
 }
 
 .line.line_type_bold {
     margin-bottom: 3px;
+
     border-width: 2px;
 }
 
@@ -215,7 +222,6 @@ body {
 .multicolumn__right,
 .multicolumn__left {
     display: inline-block;
-
     box-sizing: border-box;
     width: 49%;
     vertical-align: top;
@@ -242,11 +248,11 @@ body {
 .center-column {
     margin-top: 20px;
     padding: 0 10px;
-
     flex-grow: 2;
 }
 
 /*––––––––––––––––––Второстепенные колонки газеты––––––––––––––––––*/
+
 .left-column {
     border-right: 1px solid #000;
 }
