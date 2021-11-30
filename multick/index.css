@@ -37,8 +37,15 @@
 Нужно реализовать плавный переход между ними и зациклить его.
 */
 @keyframes sunAnimetion {
-    
+    0%{
+        
+    }
+    100%{
+        
+    }
 }
+
+
 .ship::after {
     position: absolute;
     bottom: 0;
