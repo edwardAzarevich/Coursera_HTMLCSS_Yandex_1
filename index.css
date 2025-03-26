@@ -1,0 +1,24 @@
+.animation {
+    width: 150px;
+    height: 150px;
+    background-color: #f00;
+    animation: transform 3s infinite alternate linear;
+}
+div {
+    display: block;
+}
+@keyframes transform {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(100px);
+    }
+    50% {
+        transform: translateX(100px) translateY(100%);
+    }
+    75%,
+    100% {
+        transform: translateX(100px) translateY(100%) scale(2) rotate(145deg);
+    }
+}
